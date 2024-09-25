@@ -1,0 +1,5 @@
+-- Get the schema of a Delta table
+DESCRIBE HISTORY delta.`/path/to/delta/table`
+
+-- Show the current schema
+DESCRIBE TABLE delta.`/path/to/delta/table`
